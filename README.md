@@ -17,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer require svbackend/yii2-console ">=1.1"
+php composer require svbackend/yii2-console ">=1.2@dev"
 ```
 
 or add
 
 ```
-"svbackend/yii2-console": ">=1.1"
+"svbackend/yii2-console": ">=1.2@dev"
 ```
 
 to the require section of your `composer.json` file.
