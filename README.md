@@ -3,9 +3,11 @@ yii2-console
 
 Yii2 console command. Contain migration controller that more feature and usability.
 
-[![Latest Stable Version](https://poser.pugx.org/deesoft/yii2-console/v/stable)](https://packagist.org/packages/deesoft/yii2-console) 
-[![Latest Unstable Version](https://poser.pugx.org/deesoft/yii2-console/v/unstable)](https://packagist.org/packages/deesoft/yii2-console) 
-[![License](https://poser.pugx.org/deesoft/yii2-console/license)](https://packagist.org/packages/deesoft/yii2-console)
+Fork: https://github.com/deesoft/yii2-console
+
+[![Latest Stable Version](https://poser.pugx.org/svbackend/yii2-console/v/stable)](https://packagist.org/packages/svbackend/yii2-console) 
+[![Latest Unstable Version](https://poser.pugx.org/svbackend/yii2-console/v/unstable)](https://packagist.org/packages/svbackend/yii2-console) 
+[![License](https://poser.pugx.org/svbackend/yii2-console/license)](https://packagist.org/packages/svbackend/yii2-console)
 
 Installation
 ------------
@@ -15,13 +17,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require deesoft/yii2-console "~1.0"
+php composer require svbackend/yii2-console ">=1.1"
 ```
 
 or add
 
 ```
-"deesoft/yii2-console": "~1.0"
+"svbackend/yii2-console": ">=1.1"
 ```
 
 to the require section of your `composer.json` file.
