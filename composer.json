@@ -28,7 +28,7 @@
         "bootstrap": "svbackend\\console\\Bootstrap",
         "branch-alias": {
             "dev-master": "1.x-dev",
-            "stable-master": "1.2-stable"
+            "stable-master": "1.2.x-dev"
         }
     }
 }
