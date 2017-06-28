@@ -1,4 +1,5 @@
 {
+    "version": "1.2.0",
     "name": "svbackend/yii2-console",
     "description": "Yii2 console command",
     "keywords": ["yii2", "command", "migration", "sample data"],
@@ -26,7 +27,8 @@
     "extra": {
         "bootstrap": "svbackend\\console\\Bootstrap",
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "1.x-dev",
+            "stable-master": "1.2-stable"
         }
     }
 }
