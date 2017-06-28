@@ -1,0 +1,32 @@
+{
+    "name": "svbackend/yii2-console",
+    "description": "Yii2 console command",
+    "keywords": ["yii2", "command", "migration", "sample data"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/svbackend/yii2-console/issues",
+        "source": "https://github.com/svbackend/yii2-console"
+    },
+    "authors": [
+        {
+            "name": "Misbahul Munir",
+            "email": "misbahuldmunir@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.4",
+        "symfony/process": ">=2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "svbackend\\console\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "svbackend\\console\\Bootstrap",
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
